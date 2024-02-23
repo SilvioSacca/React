@@ -9,7 +9,7 @@ export function App() {
         
         <div>
         <HelloWorld />
-        <Welcome name="Silvio" age={33}/>
+        <Welcome name="Silvio" age={30}/>
         <AlertClock />
         <Counter />
         </div>
