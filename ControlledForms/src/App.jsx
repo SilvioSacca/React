@@ -8,7 +8,9 @@ import { MouseClicker } from "./MouseClicker";
 // import { Welcome } from "./Welcome";
 
 export function App() {
-    
+    function onLogin(state) {
+        console.log(state)
+    }
     return (
         
         <div>
@@ -19,7 +21,7 @@ export function App() {
         <Clock />
         <MouseClicker />
         <InteractiveWelcome />
-        <Login />
+        <Login onLogin={onLogin}/>
         </div>
     )
 }
