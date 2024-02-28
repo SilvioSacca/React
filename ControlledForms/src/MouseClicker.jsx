@@ -10,10 +10,8 @@ export function MouseClicker() {
     
     return(
         <div>
-            <button onClick={HandleClick} name="one">
-                Click Me!
-                <img onClick= {HandleImage} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq6n93VNOQZROSEMdE0HlRu2t0uFv1fshC7g&usqp=CAU" />
-                </button>
+            <button onClick={HandleClick} name="one"> Click Me!</button>
+            <img width={88} onClick={HandleImage} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq6n93VNOQZROSEMdE0HlRu2t0uFv1fshC7g&usqp=CAU" />
         </div>
     )
 }
